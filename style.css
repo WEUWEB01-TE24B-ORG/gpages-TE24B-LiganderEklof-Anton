@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --federal-blue: #03045eff;
+    --honolulu-blue: rgb(0, 118, 182);
+    --pacific-cyan: #00b4d8ff;
+    --non-photo-blue: #90e0efff;
+    --light-cyan: #caf0f8ff;
+}
+
+body{
+    background-color: var(--federal-blue);
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.container{
+    width: 700px;
+    margin: auto;
+    background-color: var(--pacific-cyan);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 5px 5px var(--non-photo-blue);
+}
+div.box{
+    padding: 20px;
+    background-color: var(--honolulu-blue);
+    display: flex; 
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--light-cyan);
+}
+
+div.intro{
+    display: block;
+}
+h2{
+    background-color: var(--honolulu-blue);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--light-cyan);
+}
+img{
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--light-cyan);
+}
+p.bildtext{
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid var(--light-cyan);
+}
+
+p.introtext{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+.boxreverse{
+    flex-direction:row-reverse ;
+}
+.imgreverse{
+    margin-left: 20px;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: orange;
+    font-size: 18px;
+}
